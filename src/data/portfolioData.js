@@ -14,16 +14,15 @@ export const initialProfile = {
     "UI/UX Design Enthusiast"
   ],
   stats: [
-    { value: "3", label: "Years Experience" },
-    { value: "5", label: "Projects Completed" },
+    { value: "1 year and 5 months", label: "Internship Experience" },
+    { value: "6", label: "Projects Completed" },
     { value: "99.9%", label: "Uptime Guaranteed" },
    {/* { value: "15k+", label: "Code Commits" }*/}
   ],
   socials: {
-    github: "https://github.com/mathiasbirhanu3-droid",
+    github: "https://github.com/mathiasbirhanu",
     linkedin: "https://www.linkedin.com/in/mathias-berhanu-249855315/",
-    twitter: "https://twitter.com"
-  }
+      }
 };
 
 export const initialCertifications = [
@@ -111,13 +110,13 @@ export const initialSkills = [
 export const initialProjects = [
   {
     id: 1,
-    title: "Tourist Registration System",
+    title: "E-Learning and school management System",
     category: "Full-Stack",
-    description: "A Tourist Registration System is a digital platform used to collect, manage, and verify information about visitors.",
-    image: "https://i.pinimg.com/736x/3e/48/d0/3e48d06216577195f037f7fcbcbca386.jpg",
-    tags: ["React", "Next.js", "Node.js", "Postman", "PostgreSQL"],
+    description: "A role-based School Management System (Admin, Teacher, Student, Parent) for tracking attendance, grades, and schedules using Next.js, TypeScript, Prisma, and PostgreSQL.",
+    image: "https://img.magnific.com/free-vector/e-learning-infographic-set_1284-16836.jpg?semt=ais_hybrid&w=740&q=80",
+    tags: ["React", "Next.js", ".NET", "PostgreSQL"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/mathiasbirhanu/school-management",
     featured: true,
     architecture: {
       overview: "Microservices architecture deployed on AWS ECS with Redis cache layers for real-time aggregation queries.",
@@ -126,13 +125,13 @@ export const initialProjects = [
   },
   {
     id: 2,
-    title: "General Purpose Booking System",
+    title: "multi-vendor-e-commerce system",
     category: "Web App",
-    description: "A flexible scheduling platform that enables accept online reservations and track availability in real time..",
-    image: "https://i.pinimg.com/1200x/b5/86/39/b58639b0cb3521255b1d534e51cf4621.jpg",
-    tags: ["React", "Next.js", "Node.js", "PostgreSQL", "WebSockets"],
+    description: "A high-performance, enterprise-grade multi-vendor e-commerce platform built with .NET, Next.js, and PostgreSQL.",
+    image: "https://as2.ftcdn.net/jpg/02/00/21/19/1000_F_200211911_27uEQBHE8hLmtGWJKlBDtcTUToRxLnFE.webp",
+    tags: ["React", "Next.js", ".NET", "PostgreSQL", "WebSockets"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/mathiasbirhanu/multi-vendor-e-commerce",
     featured: true,
     architecture: {
       overview: "Next.js App Router streaming endpoints integrated with Pinecone vector database for high-accuracy RAG workflows.",
@@ -145,29 +144,75 @@ export const initialProjects = [
     category: "Web App",
     description: "An online food ordering platform that connects customers with local eateries.",
     image: "https://i.pinimg.com/736x/4c/d5/fd/4cd5fd9ec6e635e133508cfbe186648a.jpg",
-    tags: ["Next.js", "Stripe API", "GraphQL", "Tailwind"],
+    tags: ["Next.js", "TypeScript", "Tailwind"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/mathiasbirhanu/food-delivery-system",
+    featured: true,
+    architecture: {
+      overview: "Headless commerce architecture with incremental static regeneration (ISR) ensuring sub-second page loads.",
+      metrics: ["100/100 Lighthouse score", "45% conversion boost", "Global edge distribution"]
+    }
+  },
+  {
+    id: 4,
+    title: "sheggar-wheals-vehicles-machinery-rental",
+    category: "Web App",
+    description: "A feature-rich, full-stack vehicle and car rental management system. Built with an ASP.NET Core Web API backend, a modern Next.js frontend, and powered by PostgreSQL for fast, reliable data persistence.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWR83a4_MYbIRkUPPKaNVE49cfWg-zoeuw4XW4fQ26kk-bkK5m1nWrj2q9&s=10",
+    tags: ["Next.js", "TypeScript", ".NET", "Postgeress SQL", "prisma"],
+    liveUrl: "https://github.com/mathiasbirhanu/sheggar-wheals-vehicles-machinery-rental",
+    githubUrl: "https://github.com/mathiasbirhanu/sheggar-wheals-vehicles-machinery-rental",
+    featured: true,
+    architecture: {
+      overview: "Headless commerce architecture with incremental static regeneration (ISR) ensuring sub-second page loads.",
+      metrics: ["100/100 Lighthouse score", "45% conversion boost", "Global edge distribution"]
+    }
+  },
+  {
+    id: 5,
+    title: "film & Theatre Streaming System",
+    category: "Web App",
+    description: "Film& Theatre Streaming System full stack A modern, high-performance, and scalable full-stack movie and video streaming platform built with .NET (Backend API) and Next.js (Frontend), backed by PostgreSQL for robust data management.",
+    image: "https://img.magnific.com/free-vector/online-cinema-realistic-poster-with-play-button-screen-popcorn-3d-glasses-dark-blue-background-vector-illustration_1284-77062.jpg?semt=ais_hybrid&w=740&q=80",
+    tags: ["Next.js", "TypeScript", ".NET", "Postgeress SQL", "prisma"],
+    liveUrl: "https://github.com/mathiasbirhanu/sheggar-wheals-vehicles-machinery-rental",
+    githubUrl: "https://github.com/mathiasbirhanu/film-streaming-full-stack",
+    featured: true,
+    architecture: {
+      overview: "Headless commerce architecture with incremental static regeneration (ISR) ensuring sub-second page loads.",
+      metrics: ["100/100 Lighthouse score", "45% conversion boost", "Global edge distribution"]
+    }
+  },
+  {
+    id: 6,
+    title: "Bingo Game",
+    category: "Web App",
+    description: "Full-Stack Bingo Platform | Next.js, .NET Core, TypeScript, Tailwind CSS Engineered a real-time multiplayer Bingo web application featuring a high-performance Next.js frontend and a secure ASP.NET Core backend. Implemented live game state synchronization, automated win-condition validation, and a sleek, responsive user interface.",
+    image: "https://as1.ftcdn.net/jpg/09/61/36/86/1000_F_961368602_LXUp7taZdNmFMhXfiwPJQx7eYgzQT7zX.webp",
+    tags: ["Next.js", "TypeScript", ".NET", "Postgeress SQL", "prisma"],
+    liveUrl: "https://github.com/mathiasbirhanu/sheggar-wheals-vehicles-machinery-rental",
+    githubUrl: "https://github.com/mathiasbirhanu/bingo-full-stack",
     featured: true,
     architecture: {
       overview: "Headless commerce architecture with incremental static regeneration (ISR) ensuring sub-second page loads.",
       metrics: ["100/100 Lighthouse score", "45% conversion boost", "Global edge distribution"]
     }
   }
+  
 ];
 
 export const initialExperience = [
   {
     id: 1,
-    role: "Full Stack Developer and Technology Adviser ",
+    role: "Full Stack Developer and IT support - Internship",
     company: "Addis Ababa City Development & Charity Organization (NGO)",
     period: "2024 - Present",
-    type: "Work",
-    description: "Full-stack software architect and strategic technology adviser turning complex business goals into scalable, end-to-end technical execution.",
+    type: "InternShip",
+    description: "Full-stack software developer and IT support turning complex business goals into scalable, end-to-end technical execution.",
     highlights: [
       "Advised organizational leaders on technology adoption, infrastructure upgrades",
       "Designed and built scalable, high-performance full-stack applications based on the organization goals",
-      "Led technical workflows, managed IT operations"
+      "support technical workflows, managed IT operations"
     ]
   },
   {
@@ -184,18 +229,8 @@ export const initialExperience = [
 ];
 
 export const estimatorOptions = {
-  types: [
-    { id: "landing", name: "Landing Page / Portfolio", baseHours: 25, basePrice: 1200 },
-    { id: "webapp", name: "Full Web Application", baseHours: 80, basePrice: 4000 },
-    { id: "saas", name: "Complex SaaS Platform", baseHours: 150, basePrice: 7500 }
-  ],
-  features: [
-    { id: "auth", name: "User Auth & Roles", price: 500, hours: 10 },
-    { id: "payment", name: "Stripe Payment Gateway", price: 600, hours: 12 },
-    { id: "cms", name: "Headless CMS Integration", price: 700, hours: 14 },
-    { id: "ai", name: "AI LLM Integration", price: 900, hours: 16 },
-    { id: "mobile", name: "PWA / Touch Optimized", price: 400, hours: 8 }
-  ]
+  
+ 
 };
 
 export const INITIAL_MESSAGES = [

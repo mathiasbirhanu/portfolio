@@ -7,7 +7,7 @@ export default function AdminLoginModal({ onClose, onLoginSuccess }) {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (passcode === 'admin123') {
+    if (passcode === '585828@Li') {
       onLoginSuccess();
     } else {
       setError(true);
